@@ -1,1 +1,33 @@
 /* File CSS Part */
+
+header p{
+	
+	font-size : 24px;
+}
+
+header li{
+	
+	display : inline-block ;
+	padding : 20px ;
+	color : yellow;
+}
+
+ul {
+	
+	position : absolute ;
+	right : 5px;
+	top : 0px;
+}
+
+li a {
+	
+	color : yellow;
+	display : block;
+	width : 60px;
+}
+
+li a:hover{
+	
+	color : blue;
+}
+	
