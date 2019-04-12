@@ -1,8 +1,12 @@
 /* File CSS Part */
+header {
+	background-color : rgba(180,180,180,0.5);   /*put some transitions here */
+}
 
 header p{
 	
 	font-size : 24px;
+	font-family : courier , sans-serif;
 }
 
 header li{
@@ -21,13 +25,18 @@ ul {
 
 li a {
 	
-	color : yellow;
+	text-decoration : none ;
 	display : block;
 	width : 60px;
 }
 
-li a:hover{
-	
-	color : blue;
+p a{
+	text-decoration : none;
+	color : #000;
 }
+
+a:hover{
+	font-size : 24px;
+	color : #f00;
+
 	
