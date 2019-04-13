@@ -94,11 +94,34 @@
 			<span class="d-amount-raised">$1000 raised of $2000</span>
 		</div>
 	</div>
-	<div class="d-controls"><span id="left-arrow"> <i class="fas fa-angle-left"></i> </span> &nbsp;&nbsp;
-	<span id="right-arrow"> <i class="fas fa-angle-right"></i> </span></div>
+	<div class="d-controls">
+		<span id="left-arrow"> 
+			<i class="fas fa-angle-left"></i> 
+		</span> &nbsp;&nbsp;
+		<span id="right-arrow"> 
+			<i class="fas fa-angle-right"></i> 
+		</span>
 	</div>
+	</div>
+	
 	<!-- JQuery Part -->
 	<script src="js/jquery.min.js"></script>
 
+	<script>
+	var Right = 0;
+	$("#right-arrow").click(function() {
+		Right = 100 + Right;
+		if(Right >= 900)
+			Right = 900;
+		$("#d-slider").css("right",Right);
+	});
+	$("#left-arrow").click(function() {
+		Right = Right - 100 ;
+		if(Right <= 0)
+			Right = 0;
+		$("#d-slider").css("right",Right);
+	});
+	</script>
+	
 </body>
 </html>

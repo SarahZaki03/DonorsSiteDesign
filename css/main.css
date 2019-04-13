@@ -125,6 +125,8 @@ li.menu-link a:hover{
 }
 #d-slider{
 	width: 200%;
+	position: relative;
+    right: 0;
 }
 .d-card{
 	display: inline-block;
