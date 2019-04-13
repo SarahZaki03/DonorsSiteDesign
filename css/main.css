@@ -1,41 +1,112 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, and, address, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video, input, textarea, select {
+	background:transparent;
+	border:0;
+	font-size:100%;
+	margin:0;
+	outline:0;
+	padding:0;
+	vertical-align:baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display:block;
+}
+body {
+	line-height:1;
+	min-height:100%; 
+    position:relative; 
+    padding-bottom:40px; 
+}
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+blockquote, q {
+	quotes:none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content:none;
+}
+del {
+	text-decoration:line-through;
+}
+hr {
+	background:transparent;
+	border:0;
+	clear:both;
+	color:transparent;
+	height:1px;
+	margin:0;
+	padding:0;
+}
+mark {
+	background-color:#ffffb3;
+	font-style:italic
+}
+input, select {
+	vertical-align:middle;
+}
+ins {
+	background-color:red;
+	color:white;
+	text-decoration:none;
+}
+ol, ul {
+	list-style:none;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+/* ------------------------------------------- Reset Bart Ended ------------------------------------------- */
+
 /* File CSS Part */
+body{
+	width: 100%;
+}
 header {
 	background-color : rgba(180,180,180,0.5);   /*put some transitions here */
+	height: 50px;
+    padding-top: 20px;
 }
 
-header p{
-	
+/* Site Name URL in the left side */
+#site-name{
 	font-size : 24px;
 	font-family : courier , sans-serif;
+	height: 70px;
+	text-decoration: none;
+	color: white;
+    font-weight: bolder;
+    padding: 20px 50px;
 }
 
-header li{
-	
-	display : inline-block ;
-	padding : 20px ;
-}
-
-ul {
-	
-	position : absolute ;
-	right : 5px;
+ul.menu{
+	position : absolute;
+	right : 50px;
 	top : 0px;
+	display: flex;
 }
-
-li a {
-	
-	text-decoration : none ;
+.menu-link{
+	padding : 27px 20px;
+	font-family: monospace;
+    font-size: large;
+}
+li.menu-link a {
+	text-decoration : none;
 	display : block;
 	width : 60px;
+	color: black;
+	text-align: center;
+    padding-bottom: 7px;
 }
-
-p a{
-	text-decoration : none;
-	color : #000;
+li.menu-link a:hover{
+	/*font-size : 24px;*/
+	border-bottom: 2px solid black;
 }
+ 
 
-a:hover{
-	font-size : 24px;
-	color : #f00;
 
 	
