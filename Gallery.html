@@ -1,0 +1,71 @@
+﻿<!-- Index File -->
+<!DOCTYPE html>
+<html>
+
+<head> 
+
+	<title> Donors Site </title>
+	<meta charset = "utf-8" />
+	<meta name = "viewport" content = "width=device-width , initial-scale=1.0" />
+	<meta name = "description" content = "A web site for charity and helping people with needs => Donors " />
+	<meta name = "keywords" content = " charity , help , people , donors , needs " />
+	<meta name = "author" content = " Moamen Ebrahim , Majed Ahmad , Sarah Zaki " />
+
+	<!-- Style Links -->
+	<link  rel="stylesheet" href="css/main.css"/> 
+	
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	
+	
+	
+</head>
+<body>
+
+	<header>
+		<!-- <p> <a href="#Home"> Donors </a> </p> -->
+		<a href="index.html" id="site-name"> Donors </a> 
+		
+		<ul class="menu">
+			<li class="menu-link" > <a href="#home"> Home </a> </li>
+			<li class="menu-link"> <a href="#donate"> Donate </a> </li>
+			<li class="menu-link"> <a href="#about"> About </a> </li>
+			<li class="menu-link"> <a href="#contact"> Contact </a> </li>
+		</ul>
+		
+	</header>
+	
+	<h1 id="d-s-header">Gallery</h1>
+	<div id="d-gallery">
+		<div class="d-g-image"><img src="images/1.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/2.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/3.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/4.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/5.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/6.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/7.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/8.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/9.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/1.png" class="d-image"/></div>	
+		<div class="d-g-image"><img src="images/2.png" class="d-image"/></div>
+		<div class="d-g-image"><img src="images/3.png" class="d-image"/></div>
+	</div>
+	<!-- JQuery Part -->
+	<script src="js/jquery.min.js"></script>
+	<script> 
+	/*$(".d-g-image img").hover(function() {
+		$(".d-g-image img").css("width",'300px');
+		$(".d-g-image img").css("transition","width 0.5s linear 0s");
+	}); */
+	
+	$( ".d-g-image img" ).hover( function() {
+			$( this ).addClass( "d-g-hover" );
+		  }, function() {
+			$( this ).removeClass( "d-g-hover" );
+		  }
+		);
+	
+	</script>
+	
+</body>
+</html>

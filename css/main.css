@@ -181,6 +181,29 @@ li.menu-link a:hover{
 }
 /* ------------------------- Slider CSS End Part --------------------------*/
 
+/* ------------------------- Gallery Part Start ---------------------------*/
+#d-gallery{
+	width: 72%;
+	margin: auto;
+}
+.d-image{ 
+	width: 250px;
+	height: 250px;
+}
+.d-g-image{
+	display: inline-block;
+	text-align: center;
+	overflow: hidden;
+	width: 250px;
+	height: 250px;
+	cursor: zoom-in; 
+}
+.d-g-hover{ 
+	transform: scale(1.5);
+	opacity: 0.5;
+	transition: .5s ease;
+}
+
 
 
 
