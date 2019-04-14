@@ -114,12 +114,14 @@
 		if(Right >= 900)
 			Right = 900;
 		$("#d-slider").css("right",Right);
+		$("#d-slider").css("transition","right 0.3s linear 0s");
 	});
 	$("#left-arrow").click(function() {
 		Right = Right - 100 ;
 		if(Right <= 0)
 			Right = 0;
 		$("#d-slider").css("right",Right);
+		$("#d-slider").css("transition","right 0.3s linear 0s");
 	});
 	</script>
 	
