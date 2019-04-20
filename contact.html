@@ -26,6 +26,7 @@
 	
 </head>
 <body>
+  <!-- Start Header Part -->
 
 	<header>
             <div class="navbar ">
@@ -36,7 +37,7 @@
                 <!--- Why You insert The a tag inside p tag? If there is a reason, please let me know, Thank you. -->
 
                 <ul class="menu">
-                    <li class="menu-link" > <a href="index.html"> Home </a> </li>
+                  <li class="menu-link" > <a href="index.html"> Home </a> </li>
                     <li class="menu-link"> <a href="Gallery.html"> Gallery </a> </li>
                     <li class="menu-link"> <a href="donate.html"> Donate </a> </li>
                     <li class="menu-link"> <a href="about.html"> About </a> </li>
@@ -55,37 +56,17 @@
 
 
 	</header>
-	 
-	<div id="d-gallery">
-		<div class="d-g-image"><img src="images/1.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/2.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/3.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/4.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/5.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/6.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/7.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/8.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/9.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/1.png" class="d-image"/></div>	
-		<div class="d-g-image"><img src="images/2.png" class="d-image"/></div>
-		<div class="d-g-image"><img src="images/3.png" class="d-image"/></div>
-	</div>
-	
-	
-	<!---- Success Stories Part ------>
-	<div class="d-s-stories"> 
-		<div class="d-success">
-			<div class="d-s-img"><img src="images/child/3.jpg" /></div>
-			<div class="d-s-right">
-				<h3>SUCCESS STORIES</h3>
-				<h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</h1>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				<span>We have raised $2000</span><br/>
-				<button>HELP WITH US</button>
-			</div>
-		</div>
-	</div>
         
+    
+    
+    <!-- End Header part -->
+        
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
+   <br>
     <!-- Footer Part -->
     
     <div class="footer">
@@ -180,6 +161,12 @@
 <div class="copyright"> Made By Elite Project Group &copy; 2019 </div>  
     </div>
     </div>
+ 
+        
+    
+    
+    
+
 	
 	<!-- JQuery Part -->
 	<script src="js/jquery.min.js"></script>
@@ -196,6 +183,29 @@
 		  }
 		);
 	
+	</script>
+    
+    
+	
+	<!-- JQuery Part -->
+	<script src="js/jquery.min.js"></script>
+
+	<script>
+	var Right = 0;
+	$("#right-arrow").click(function() {
+		Right = 100 + Right;
+		if(Right >= 900)
+			Right = 900;
+		$("#d-slider").css("right",Right);
+		$("#d-slider").css("transition","right 0.3s linear 0s");
+	});
+	$("#left-arrow").click(function() {
+		Right = Right - 100 ;
+		if(Right <= 0)
+			Right = 0;
+		$("#d-slider").css("right",Right);
+		$("#d-slider").css("transition","right 0.3s linear 0s");
+	});
 	</script>
 	
 </body>
