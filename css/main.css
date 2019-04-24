@@ -283,6 +283,87 @@ li.menu-link a:hover{
 /* ------------------------- Success Stories Part End ---------------------------*/
 
 
+/* ------------------------- Cases Displaying Part Start ----------------------- */
+.d-d-box{
+	display: flex;
+}
+.r-bar{
+	background-color: #f1f1f1;
+	height: 500px;
+	width: 20%;
+	margin-top: 30px;
+    margin: 30px auto;
+}
+.d-display{
+	width: 75%;
+    margin: auto;
+	margin-top: 30px;  
+	font-family: 'Amiri';	
+	direction: rtl;
+}
+.s-by{
+	display: flex;
+    background-color: beige;
+    padding: 20px;
+    border-radius: 5px;
+}
+.s-by li{
+	width: 22%;
+    padding: 5px 10px; 
+}
+.s-by label{
+	padding-left: 15px;
+}
+.s-by select{
+	padding: 5px 20px;
+    border: 1px solid lightgray;
+    border-radius: 2px;
+}
+.d-case{
+	border: 1px solid #d3d3d3ab;
+	position: relative;
+	padding: 20px 10px;
+	margin-top: 20px;
+	border-radius: 3px; 
+	display: flex;
+}
+.c-bell{
+	position: absolute;
+    top: 15px;
+    left: 15px;
+    color: gray;
+}
+.c-bell i{
+	padding: 0 5px;
+	cursor: pointer;
+}
+.u-added{
+	border: 2px solid #ebeb7c;
+   /* display: inline-block;*/
+    padding: 25px 10px 25px 0;
+    margin: 5px;
+    width: 99px;
+    border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 26px -15px rgba(0,0,0,0.75);
+}
+.u-added p{
+	padding-bottom: 10px;
+	font-size: small;
+    text-indent: 9px;
+}
+.u-caseDes{
+	/*display: inline-block;*/
+	line-height: 2em;
+	width: 55%;
+	padding: 10px 35px;
+}
+.u-time{
+	font-size: small;
+	color: lightgray; 
+}
+/* ------------------------- Cases Displaying Part End ------------------------- */
 
 
 
