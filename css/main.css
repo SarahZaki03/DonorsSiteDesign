@@ -290,12 +290,19 @@ li.menu-link a:hover{
 .r-bar{
 	background-color: #f1f1f1;
 	height: 500px;
-	width: 20%;
+	width: 15%;
+	margin-top: 30px;
+    margin: 30px auto;
+}
+.l-bar{
+	background-color: #f1f1f1;
+	height: 500px;
+	width: 15%;
 	margin-top: 30px;
     margin: 30px auto;
 }
 .d-display{
-	width: 75%;
+	width: 60%;
     margin: auto;
 	margin-top: 30px;  
 	font-family: 'Amiri';	
@@ -315,9 +322,10 @@ li.menu-link a:hover{
 	padding-left: 15px;
 }
 .s-by select{
-	padding: 5px 20px;
-    border: 1px solid lightgray;
-    border-radius: 2px;
+	padding: 5px 20px; 
+    border-radius: 6px;
+    background-color: lightgrey;
+    color: #4d4d4db8;
 }
 .d-case{
 	border: 1px solid #d3d3d3ab;
@@ -365,7 +373,45 @@ li.menu-link a:hover{
 }
 /* ------------------------- Cases Displaying Part End ------------------------- */
 
-
+/* For Map ------------------------------------------------- */
+.st0{fill:#b044ff;}
+.st1{fill:#ff3ea7;}
+.st2{fill:#9aff2a;}
+.st3{fill:#5aff90;}
+.st4{fill:#fff038;}
+.st5{fill:#65ff75;}
+.st6{fill:#2fffc5;}
+.st7{fill:#8563ff;}
+.st8{fill:#ff336f;}
+.st9{fill:#ff5341;}
+.st10{fill:#49ffe4;}
+.st11{fill:#ffa63c;}
+.st12{fill:#F6FCD2;}
+.st13{fill:#B0C7F9;}
+.st14{fill:#B6E1FC;}
+.st15{fill:#B4B3FC;}
+.st16{fill:#2fccff;}
+.st17{fill:#9dff4e;}
+.st18{fill:#bf3dff;}
+.st19{fill:#C8EAE8;}
+.st20{fill:#77ff6b;}
+.st21{fill:#ff6572;}
+.st22{fill:#D4DAFC;}
+.st23{fill:#C7FCB3;}
+.st24{fill:#FCCFEE;}
+.st25{fill:#C7EAE8;}
+.st26{fill:#FCDCB9;}
+.st27{fill:#FCE9B8;}
+.state { 
+	transition: all 0.5s; 
+	transform-origin: center center;
+	stroke:#FFFFFF;
+	stroke-width:5;
+	stroke-miterlimit:10;
+}
+.state:hover  { 
+	transform: scale(1.3, 1.3); 
+}
 
 
 
